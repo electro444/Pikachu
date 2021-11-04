@@ -75,55 +75,53 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-`Hello` [🧚‍♀️](https://telegra.ph/file/0ac1f1b5c5b2376a14f3f.jpg) `My name is` *Pikachu*
-`I am powerful  group management bot.
-Build by Manjeet for Your Telegram Group , I specialize in managing Entertainment type groups.
+`Hello`(https://telegra.ph/file/4da08ad969014620357fa.jpg) `My name is` *God Of Pikachu*
+`I am powerful  group management bot I specialize in managing Entertainment type groups.
 You can find my list of available commands with! Hit` *🔰Commands*   
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ADD ME TO YOUR GROUP ➕️", url="t.me/Pikachu_X_Bot?startgroup=true"
+            text="➕️ ADD ME TO YOUR GROUP ➕️", url="t.me/God_Of_Pikachu?startgroup=true"
         ),
     ],
     [
-        InlineKeyboardButton(text="❗ ABOUT", callback_data="pikachu_"),
+        InlineKeyboardButton(text="❗ ABOUT", callback_data="God_Of_Pikachu_"),
         InlineKeyboardButton(text="🔰 COMMANDS", callback_data="help_back"),
     ],
     [
         InlineKeyboardButton(
-            text="🤴 OWNER", url="https://telegram.dog/Murat_30_God"
+            text="🤴 OWNER", url="https://t.me/ELECTRO_444"
         ),
     ],
     [
         InlineKeyboardButton(
-            text="❤️ Lovely status❤️ ",
-            url="https://telegram.dog/skyverse01",
+            text="My Friend",
+            url="@EO_MANAGER_BOT",
         ),
     ],
     [
-        InlineKeyboardButton(text="🗨️ Logis", url="https://t.me/PikachuX_logs"),
-        InlineKeyboardButton(
-            text="👥 SUPPORT", url="https://telegram.dog/PikachuX_support"
+         InlineKeyboardButton(
+            text="👥 SUPPORT", url="https://t.me/GodOfPikachuSupport"
         ),
     ],
     [
         InlineKeyboardButton(
-            text="💾 Source Code", url="https://github.com/kaal0408/Pikachu"
+            text="💾 Source Code", url="Pravite"
         ),
     ],
 ]
 
 
 HELP_STRINGS = """
-`ʜɪ.. ɪ'ᴍ` [Pikachu🙋‍♀️](https://telegra.ph/file/0ac1f1b5c5b2376a14f3f.jpg) 
+`ʜɪ.. ɪ'ᴍ` [GOD OF PIKACHU](https://telegra.ph/file/4da08ad969014620357fa.jpg) 
 `ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ꜱᴘᴇᴄɪꜰɪᴄ ᴍᴏᴅᴜʟᴇꜱ..`"""
 
-pikachu_IMG = "https://telegra.ph/file/0ac1f1b5c5b2376a14f3f.jpg"
+pikachu_IMG = "https://telegra.ph/file/4da08ad969014620357fa.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project via [Paypal](#) or by contacting @Murat_30_God \
+ You can support the project via [Paytm](#) or by contacting @ELECTRO_444 \
  Supporting isnt always financial! \
  Those who cannot provide monetary support are welcome to help us develop the bot at ."""
 
