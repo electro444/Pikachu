@@ -75,7 +75,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-`Hello`(https://telegra.ph/file/4da08ad969014620357fa.jpg) `My name is` *God Of Pikachu*
+`Hello`(https://telegra.ph/file/69cc8cd733364bad4d5a2.jpg) `My name is` *God Of Pikachu*
 `I am powerful  group management bot I specialize in managing Entertainment type groups.
 You can find my list of available commands with! Hit` *🔰Commands*   
 """
@@ -83,7 +83,7 @@ You can find my list of available commands with! Hit` *🔰Commands*
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ADD ME TO YOUR GROUP ➕️", url="t.me/God_Of_Pikachu?startgroup=true"
+            text="➕️ ADD ME TO YOUR GROUP ➕️", url="https://t.me/God_Of_Pikachu_Bot?startgroup=true"
         ),
     ],
     [
