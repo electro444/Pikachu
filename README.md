@@ -12,15 +12,15 @@
 </p>
 
 <p align="center">
-  <img src="https://telegra.ph/file/0ac1f1b5c5b2376a14f3f.jpg">
+  <img src="https://telegra.ph/file/a18021b7a8de9fb07dc10.jpg">
 </p>
 
 # Pikachu
-Me On Telegram [✨Pikachu✨](https://t.me/Pikachu_X_bot)
+Me On Telegram [✨Pikachu✨](https://t.me/God_Of_Pikachu_Bot)
 
 ## How To Host
 The easiest way to deploy this Bot
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/kaal0408/Pikachu"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-black?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/electro444/Pikachu"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-black?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
  
 CREDITS
 ```
