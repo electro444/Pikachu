@@ -75,7 +75,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-`Hello`(https://telegra.ph/file/69cc8cd733364bad4d5a2.jpg) `My name is` *God Of Pikachu*
+`Hello`(https://telegra.ph/file/3e167e29187609bd261bc.jpg) `My name is` *POKECHU FF*
 `I am powerful  group management bot I specialize in managing Entertainment type groups.
 You can find my list of available commands with! Hit` *🔰Commands*   
 """
@@ -83,45 +83,39 @@ You can find my list of available commands with! Hit` *🔰Commands*
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ADD ME TO YOUR GROUP ➕️", url="https://t.me/God_Of_Pikachu_Bot?startgroup=true"
+            text="➕️ ADD ME TO YOUR GROUP ➕️", url="https://t.me/POKECHU_FF_BOT?startgroup=true"
         ),
     ],
     [
-        InlineKeyboardButton(text="❗ ABOUT", callback_data="God_Of_Pikachu_"),
         InlineKeyboardButton(text="🔰 COMMANDS", callback_data="help_back"),
     ],
     [
         InlineKeyboardButton(
-            text="🤴 OWNER", url="https://t.me/ELECTRO_444"
+            text="🤴 OWNER", url="https://t.me/POKECHU_FF"
         ),
     ],
     [
         InlineKeyboardButton(
-            text="My Friend",
-            url="@EO_MANAGER_BOT",
+            text="🔗 YouTube Channel",
+            url="https://youtube.com/c/pokechuff",
         ),
     ],
     [
          InlineKeyboardButton(
-            text="👥 SUPPORT", url="https://t.me/GodOfPikachuSupport"
-        ),
-    ],
-    [
-        InlineKeyboardButton(
-            text="💾 Source Code", url="Pravite"
+            text="👥 SUPPORT", url="https://t.me/pfsupportff"
         ),
     ],
 ]
 
 
 HELP_STRINGS = """
-`ʜɪ.. ɪ'ᴍ` [GOD OF PIKACHU](https://telegra.ph/file/4da08ad969014620357fa.jpg) 
+`ʜɪ.. ɪ'ᴍ` [POKECHU FF] 
 `ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ꜱᴘᴇᴄɪꜰɪᴄ ᴍᴏᴅᴜʟᴇꜱ..`"""
 
-pikachu_IMG = "https://telegra.ph/file/4da08ad969014620357fa.jpg"
+pikachu_IMG = "https://telegra.ph/file/3e167e29187609bd261bc.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project via [Paytm](#) or by contacting @ELECTRO_444 \
+ You can support the project by contacting @POKECHU_FF \
  Supporting isnt always financial! \
  Those who cannot provide monetary support are welcome to help us develop the bot at ."""
 
@@ -368,7 +362,7 @@ def Pikachu_about_callback(update, context):
     query = update.callback_query
     if query.data == "Pikachu_":
         query.message.edit_text(
-            text=""" ℹ️ I'm *Pikachu*, a powerful group management bot built to help you manage your group easily.
+            text=""" ℹ️ I'm *POKECHU FF*, a powerful group management bot built to help you manage your group easily.
                  \n❍ I can restrict users.
                  \n❍ I can greet users with customizable welcome messages and even set a group's rules.
                  \n❍ I have an advanced anti-flood system.
@@ -376,7 +370,7 @@ def Pikachu_about_callback(update, context):
                  \n❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
                  \n❍ I check for admins' permissions before executing any command and more stuffs
                  \n\n_yone's licensed under the GNU General Public License v3.0_
-                 \nHere is the [💾Repository](https://github.com/kaal0408/Pikachu).
+                 \nHere is the [💾Repository](https://github.com/).
                  \n\nIf you have any question about yone, let us know at .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -388,7 +382,7 @@ def Pikachu_about_callback(update, context):
                 ]
             ),
         )
-    elif query.data == "Pikachu_back":
+    elif query.data == "POKECHU FF_back":
         query.message.edit_text(
                 PM_START_TEXT,
                 reply_markup=InlineKeyboardMarkup(buttons),
@@ -403,8 +397,8 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..🤗 I'm *Pikachu*
-                 \nHere is the [Source Code](https://github.com/kaal0408/Pikachu) .""",
+            text=""" Hi..🤗 I'm *POKECHU FF*
+                 \nHere is the [Source Code](https://github.com/Pikachu) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
