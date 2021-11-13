@@ -75,7 +75,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-`Hello`(https://telegra.ph/file/3e167e29187609bd261bc.jpg) `My name is` *POKECHU FF*
+`Hello`[.](https://telegra.ph/file/3e167e29187609bd261bc.jpg) `My name is` *POKECHU FF*
 `I am powerful  group management bot I specialize in managing Entertainment type groups.
 You can find my list of available commands with! Hit` *🔰Commands*   
 """
